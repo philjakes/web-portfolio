@@ -1,0 +1,78 @@
+/************************************
+*main css file for portfolio website*
+*created Phil Jakes                 *
+*on March 2021                      *
+************************************/
+body {
+    font-size: 16px;
+    color: aliceblue;
+    letter-spacing:0.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    float: right;
+}
+
+nav {
+    padding:10px;
+    background-color: #29565e;
+    height: 50px;
+    line-height:50px;
+    color: #ffffff; 
+    font-size:0.35;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around; 
+}
+  
+nav a{
+    
+
+
+}
+
+h1{
+    color: rgb(35, 132, 211);
+}
+header {
+    background-color: #33691e;
+    font-family: "open sans",sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a {
+    color:#cad1d6;
+    text-decoration:none;
+}
+
+a:hover{
+    background-color:brown;
+}
+
+nav
+main.column{
+    width:50%;
+    float:right;
+}
+main{
+    background:#fff url("/portfolio/images/backiee-194099.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:auto;
+}
+
+footer {
+    clear:both;
+    background-color: #06802e;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer p{
+    text-align:center;
+}

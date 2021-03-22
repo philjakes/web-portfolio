@@ -3,18 +3,72 @@
 *created Phil Jakes                 *
 *on March 2021                      *
 ************************************/
-nav{
-    background-color: #cad1d6;
-    height: 50px;
-    color: #ffffff;
+body {
+    font-size: 16px;
+    color: aliceblue;
+    letter-spacing:0.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-header{
+
+.navbar{
+    float: right;
+}
+
+nav {
+    padding:10px;
+    background-color: #29565e;
+    height: 50px;
+    line-height:50px;
+    color: #ffffff;   
+}
+  
+nav a{
+    border:brown 2px solid;
+
+
+}
+
+h1{
+    color: rgb(35, 132, 211);
+}
+header {
     background-color: #33691e;
     font-family: "open sans",sans-serif;
     font-size: 0.75rem;
     font-weight: bold;
     font-style: italic;
 }
-footer{
-    background-color: #629749;
+
+a {
+    color:#cad1d6;
+    text-decoration:none;
+}
+
+a:hover{
+    background-color:brown;
+}
+
+nav
+main.column{
+    width:50%;
+    float:right;
+}
+main{
+    background:#fff url("/portfolio/images/backiee-194099.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:auto;
+}
+
+footer {
+    clear:both;
+    background-color: #06802e;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer p{
+    text-align:center;
 }
